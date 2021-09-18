@@ -2,6 +2,15 @@
     text-decoration: none;
 
 }
+.size{
+    padding-top: 20px;
+
+}
+.navigation{
+
+    padding: 10px 30px;
+
+}
 body{
     background-image: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     border-radius: 20px;
