@@ -11,6 +11,15 @@
     padding: 10px 30px;
 
 }
+
+.navigation:hover{
+
+background-color: red;
+border-radius: 20px;
+padding: 20px;
+color: whitesmoke;
+text-align: center;
+}
 body{
     background-image: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     border-radius: 20px;
