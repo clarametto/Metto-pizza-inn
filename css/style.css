@@ -28,9 +28,19 @@ text-align: center;
     background-repeat: no-repeat;
     height: 600px;
 }
-.footer{
+.foot{
     padding: 2%;
+    border-radius: 10px;
+    background-color: rgb(9,8,6);
+}.footer{
+    padding: 2%;
+    /* background-color: rgb(9,8,6); */
 }
+
 .icon{
     padding: 2%;
+}
+.foot h3{
+    color: whitesmoke;
+
 }
