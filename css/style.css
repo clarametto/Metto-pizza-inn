@@ -37,6 +37,10 @@ text-align: center;
     padding: 2%;
     /* background-color: rgb(9,8,6); */
 }
+.image{
+    width: 300px;
+    border-radius: 20px;
+}
 
 .icon{
     padding: 2%;
