@@ -210,18 +210,18 @@ $(document).ready(function () {
 
           //Display order summary on checkout with delivery
 
-        //   $("#checkoutButton").click(function(event) {
-        //     event.preventDefault();
-        //     let totalOrderCost = total + shippingCost;
-        //     $("#userNameTwo").text(userName);
-        //     $("#phoneTwo").text(phone);
-        //     $("#aggregatePrice").text(total);
-        //     $("#shippingArea").text(shippingLocation);
-        //     $("#shippingCost").text(shippingCost);
-        //     $("#totalAmount").text(totalOrderCost);
-        //     $("#checkouAlert").show();
-        //     $(this).hide();
-        //   })
+          $("#checkoutButton").click(function(event) {
+            event.preventDefault();
+            let totalOrderCost = total + shippingCost;
+            $("#userNameTwo").text(userName);
+            $("#phoneTwo").text(phone);
+            $("#aggregatePrice").text(total);
+            $("#shippingArea").text(shippingLocation);
+            $("#shippingCost").text(shippingCost);
+            $("#totalAmount").text(totalOrderCost);
+            $("#checkouAlert").show();
+            $(this).hide();
+          })
         })
       });
 
