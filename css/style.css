@@ -58,8 +58,9 @@ text-align: center;
 /* aboutus.css */
 .bod{
     height: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
+    color: whitesmoke;
 }
 .about{
     border-radius: 20px;
