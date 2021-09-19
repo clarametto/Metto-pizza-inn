@@ -77,6 +77,9 @@ text-decoration: none;
 .about{
     border-radius: 20px;
 }
+#design{
+    width: 100px;
+}
 
 /* What we do on about us */
 
