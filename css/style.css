@@ -70,4 +70,11 @@ text-align: center;
 /* What we do on about us */
 .item{
     width: auto;
+    cursor: pointer;
+
+}
+#design-p {
+    color: whitesmoke;
+    font-size: 14px;
+    display: none;
 }
