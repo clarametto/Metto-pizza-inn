@@ -373,7 +373,72 @@
       <div id="checkoutUser1" class="text-center">
 
         <button id="checkout1" class="btn btn-success" type="button">Checkout</button>
-        
+
+      </div>
+
+          <!-- delivery checkout section -->
+
+    <div id="checkOut">
+
+        <div id="checkouAlert" class="alert alert-success alert-dismissible">
+
+          <strong>Success! Order Summary...This order is on its way to your location.</strong>
+
+          <table class="table table-dark">
+
+            <tr>
+              <th scope="col">#</th>
+              <th>Item</th>
+              <th>Description</th>
+            </tr>
+
+            <tr>
+              <th scope="row">1</th>
+              <td>Name:</td>
+              <td><span id="userNameTwo"></span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">2</th>
+              <td>Phone Number:</td>
+              <td><span id="phoneTwo"></span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">3</th>
+              <td>Aggregate Order Price</td>
+              <td>Ksh <span id="aggregatePrice"></span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">4</th>
+              <td>Shipping Location</td>
+              <td><span id="shippingArea"></span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">5</th>
+              <td>Shipping Cost</td>
+              <td>Ksh <span id="shippingCost"></span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">6</th>
+              <td>Grand Total</td>
+              <td>Ksh <span id="totalAmount"></span></td>
+            </tr>
+
+          </table>
+
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+
+        </div>
+
+        <div class="text-center">
+
+          <button id="checkoutButton" class="btn btn-success" type="button">Checkout</button>
+          
+        </div>
       </div>
 
 
