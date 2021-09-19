@@ -1,5 +1,6 @@
 *{
     text-decoration: none;
+    list-style: none;
     
 
 }
@@ -23,6 +24,8 @@ border-radius: 20px;
 padding: 10px;
 color: whitesmoke;
 text-align: center;
+text-decoration: none;
+
 
 
 }
@@ -82,7 +85,13 @@ text-align: center;
 
 }
 #design-p {
-    color: whitesmoke;
+    color: rgb(245,161,87);
     font-size: 14px;
     display: none;
+}
+.colour{
+    color: rgb(245,161,87);
+    font-size: 18px;
+
+
 }
