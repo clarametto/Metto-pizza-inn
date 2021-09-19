@@ -42,6 +42,7 @@ text-align: center;
     padding: 2%;
     border-radius: 10px;
     background-color: rgb(9,8,6);
+    height: 200px;
 }.footer{
     padding: 2%;
     /* background-color: rgb(9,8,6); */
@@ -56,6 +57,7 @@ text-align: center;
 }
 .foot h3{
     color: whitesmoke;
+    font-size: 20px;
 
 }
 
