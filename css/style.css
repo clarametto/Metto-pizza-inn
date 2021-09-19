@@ -68,3 +68,6 @@ text-align: center;
 }
 
 /* What we do on about us */
+.item{
+    width: auto;
+}
