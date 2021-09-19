@@ -179,15 +179,15 @@ $(document).ready(function () {
           
           //show order summary on checkout without delivery
 
-        //   $("#checkout1").click(function(event) {
-        //     event.preventDefault();
-        //     $("#aggregatePriceOne").text(total);
-        //     $("#userName1").text(userName);
-        //     $("#phoneOne").text(phone);
-        //     $("#checkouAlertOne").show();
-        //     $(this).hide();
-        //   })
-        // })
+          $("#checkout1").click(function(event) {
+            event.preventDefault();
+            $("#aggregatePriceOne").text(total);
+            $("#userName1").text(userName);
+            $("#phoneOne").text(phone);
+            $("#checkouAlertOne").show();
+            $(this).hide();
+          })
+        })
     
         //Receive inputs from customer with delivery
 
