@@ -1,5 +1,6 @@
 *{
     text-decoration: none;
+    
 
 }
 .size{
@@ -7,22 +8,27 @@
 
 }
 .logo{
-    width: 150px;
+    width: 170px;
 }
-.navigation{
+.navigation, li, a{
 
-    padding: 10px 30px;
+    padding: 5px 15px;
 
 }
 
 .navigation:hover{
 
-background-color: red;
+background-color:rgb(245,161,87);
 border-radius: 20px;
-padding: 20px;
+padding: 10px;
 color: whitesmoke;
 text-align: center;
 
+
+}
+.paragraph{
+
+    font-size: 20px;
 }
 .body{
     background-image: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
