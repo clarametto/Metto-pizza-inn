@@ -105,20 +105,31 @@ a {
 }
 
 #design-p {
-    color: rgb(245, 161, 87);
-    font-size: 14px;
+    /* color: rgb(245, 161, 87); */
+    color: whitesmoke;
+    font-size: 17px;
     display: none;
+}
+.line{
+    width: 500px;
+    border: 1px solid white;
 }
 
 .colour {
-    color: rgb(245, 161, 87);
+    color: whitesmoke;
     font-size: 18px;
 
 
 }
 
 .chiken {
-    color: rgb(245, 161, 87);
+    color: whitesmoke;
+
+}
+h3,h2,h4{
+    /* color: rgb(245, 161, 87); */
+    color: wheat;
+
 
 }
 
