@@ -62,7 +62,7 @@ $(document).ready(function () {
       let crustCost = 0;
       let sizeValue =0;
       if (size.length === 0 || crust.length === 0 || topping.length === 0 ) {
-        alert("Select from all the fiels before adding to cart!!! ")
+        alert("Select from all the fields before adding to cart!!! ")
         throw new Error;
       }
       if (crust == "Crispy") {
@@ -116,5 +116,113 @@ $(document).ready(function () {
       let form1 =document.getElementsByName("orderForm")[0];
       form1.reset();
     });
+
+
+    checkOrder.addEventListener('click', function () {
+        let cart = JSON.parse(localStorage.getItem("cart"));
+        if (cart.length > 0) {
+          document.querySelector("#customerOrder").innerHTML = "";
+          cart.forEach(element => {
+          document.querySelector("#customerOrder").innerHTML += `<tr>
+          <td>${element['size']}</td>
+          <td>${element['crust']}</td>
+          <td>${element['topping']}</td>
+          <td>${(element['toppingCost']) + (element['crustCost']) + (element['sizeValue'])}</td>
+          </tr>`;
+          });
+        }
+    
+        //print order summary to a table
+
+        // $("#orderTable").show();
+        // $("#ask").show();
+        // const total = cart.reduce((sum, item) => sum + (parseInt(item['total'])), 0);
+        // const shippingCost = 0.2*total;
+        // tot.innerHTML = "Aggregate Order Price Ksh " + total.toString();
+    
+        //confirmation for delivery option
+
+        // $("form#confirm").submit(function(event) {
+        //   event.preventDefault();
+        //   let delivery = $("#askForLocation").val();
+    
+        //   if(delivery === "Yes") {
+        //     $("#message").text("Your shipping cost is Ksh " + shippingCost);
+        //     $("#confirmAlert").show();
+        //     $("#locate").show();
+        //     $("#userInfo").hide();
+        //     $(this).hide();
+        //     $("#ask").hide();
+        //   }
+        //   else if (delivery == "No") {
+        //     $("#userInfo").show();
+        //     $("#locate").hide();
+        //     $(this).hide();
+        //     $("#ask").hide();
+        //   }
+        // })
+    
+        //capture details from user with no delivery
+
+        // $("#detailsButton").click(function(event) {
+        //   event.preventDefault();
+        //   let userName= $("input#nameOne").val();
+        //   let phone = $("input#phone1").val();
+        //   if (userName.length === 0 || phone.length === 0) {
+        //     alert("Enter all fields before submiting!!!")
+        //   }
+        //   else {
+        //     $("#checkoutUser1").show();
+        //     $(this).hide();
+        //     $("#userInfo").hide();
+        //   }
+          
+          //show order summary on checkout without delivery
+
+        //   $("#checkout1").click(function(event) {
+        //     event.preventDefault();
+        //     $("#aggregatePriceOne").text(total);
+        //     $("#userName1").text(userName);
+        //     $("#phoneOne").text(phone);
+        //     $("#checkouAlertOne").show();
+        //     $(this).hide();
+        //   })
+        // })
+    
+        //Receive inputs from customer with delivery
+
+        // $("#locationButton").click(function(event) {
+        //   event.preventDefault();
+        //   const shippingLocation = $("input#shippingLocation").val();
+        //   let userName = $("input#name").val();
+        //   let phone = $("input#phone").val();
+    
+        //   if (shippingLocation.length === 0 || userName.length ===0 || phone.length ===0) {
+        //     alert ("Enter all fields before submiting!!!")
+        //   }
+        //   else {
+        //     $("#areaMessage").text("Your shipping location is " + shippingLocation +". This order will be delivered to your location after you checkout.");
+        //     $("#locationAlert").show();
+        //     $("#checkOut").show();
+        //     $("#locate").hide();
+        //     $(this).hide();
+        //   }
+
+          //Display order summary on checkout with delivery
+
+        //   $("#checkoutButton").click(function(event) {
+        //     event.preventDefault();
+        //     let totalOrderCost = total + shippingCost;
+        //     $("#userNameTwo").text(userName);
+        //     $("#phoneTwo").text(phone);
+        //     $("#aggregatePrice").text(total);
+        //     $("#shippingArea").text(shippingLocation);
+        //     $("#shippingCost").text(shippingCost);
+        //     $("#totalAmount").text(totalOrderCost);
+        //     $("#checkouAlert").show();
+        //     $(this).hide();
+        //   })
+        })
+      });
 
 });
