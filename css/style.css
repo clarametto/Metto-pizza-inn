@@ -14,6 +14,7 @@
 .navigation, li, a{
 
     padding: 5px 15px;
+    color: whitesmoke;
 
 }
 
@@ -22,7 +23,7 @@
 background-color:rgb(245,161,87);
 border-radius: 20px;
 padding: 10px;
-color: whitesmoke;
+color: black;
 text-align: center;
 text-decoration: none;
 
