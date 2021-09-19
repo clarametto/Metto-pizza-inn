@@ -164,18 +164,18 @@ $(document).ready(function () {
     
         //capture details from user with no delivery
 
-        // $("#detailsButton").click(function(event) {
-        //   event.preventDefault();
-        //   let userName= $("input#nameOne").val();
-        //   let phone = $("input#phone1").val();
-        //   if (userName.length === 0 || phone.length === 0) {
-        //     alert("Enter all fields before submiting!!!")
-        //   }
-        //   else {
-        //     $("#checkoutUser1").show();
-        //     $(this).hide();
-        //     $("#userInfo").hide();
-        //   }
+        $("#detailsButton").click(function(event) {
+          event.preventDefault();
+          let userName= $("input#nameOne").val();
+          let phone = $("input#phone1").val();
+          if (userName.length === 0 || phone.length === 0) {
+            alert("Enter all fields before submitting!!!")
+          }
+          else {
+            $("#checkoutUser1").show();
+            $(this).hide();
+            $("#userInfo").hide();
+          }
           
           //show order summary on checkout without delivery
 
