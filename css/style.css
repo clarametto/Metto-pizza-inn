@@ -1,40 +1,47 @@
-*{
+* {
     text-decoration: none;
     list-style: none;
-    
+
 
 }
-.size{
+
+.size {
     padding-top: 20px;
 
 }
-.logo{
+
+.logo {
     width: 170px;
 }
-.navigation, li, a{
+
+.navigation,
+li,
+a {
 
     padding: 5px 15px;
     color: whitesmoke;
 
 }
 
-.navigation:hover{
+.navigation:hover {
 
-background-color:rgb(245,161,87);
-border-radius: 20px;
-padding: 10px;
-color: black;
-text-align: center;
-text-decoration: none;
+    background-color: rgb(245, 161, 87);
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
 
 
 
 }
-.paragraph{
+
+.paragraph {
 
     font-size: 20px;
 }
-.body{
+
+.body {
     background-image: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     border-radius: 20px;
     background-size: 100% 100%;
@@ -42,24 +49,29 @@ text-decoration: none;
     height: auto;
     color: whitesmoke;
 }
-.foot{
+
+.foot {
     padding: 2%;
     border-radius: 10px;
-    background-color: rgb(9,8,6);
+    background-color: rgb(9, 8, 6);
     height: 200px;
-}.footer{
+}
+
+.footer {
     padding: 2%;
     /* background-color: rgb(9,8,6); */
 }
-.image{
+
+.image {
     width: 300px;
     border-radius: 20px;
 }
 
-.icon{
+.icon {
     padding: 2%;
 }
-.foot h3{
+
+.foot h3 {
     color: whitesmoke;
     font-size: 20px;
 
@@ -69,53 +81,84 @@ text-decoration: none;
 
 /* aboutus.css */
 
-.bod{
+.bod {
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
     color: whitesmoke;
 }
-.about{
+
+.about {
     border-radius: 20px;
 }
-#design{
+
+#design {
     width: 100px;
 }
 
 /* What we do on about us */
 
-.item{
+.item {
     width: auto;
     cursor: pointer;
 
 }
+
 #design-p {
-    color: rgb(245,161,87);
+    color: rgb(245, 161, 87);
     font-size: 14px;
     display: none;
 }
-.colour{
-    color: rgb(245,161,87);
+
+.colour {
+    color: rgb(245, 161, 87);
     font-size: 18px;
 
 
 }
-.chiken{
-    color: rgb(245,161,87);
+
+.chiken {
+    color: rgb(245, 161, 87);
 
 }
-span{
+
+span {
     font-size: 25px;
     color: wheat;
     font-weight: bolder;
 }
 
+.alert {
+    display: none;
+}
+
+.viewYourOrder,
+#tableForOrder {
+    display: none;
+}
+
+.viewYourOrder,
+#tableForOrder {
+    text-align: center;
+    text-align: center;
+}
+
+
 /* order style */
 
-#ask,#locate,#checkOut, #userInfo, #checkoutUser1,#checkouAlertOne,#confirmAlert,#locationAlert {
+#location,
+#locateUser,
+#checkOut,
+#Info,
+#checkoutUser1,
+#checkouAlertOne,
+#confirmAlert,
+#locationAlert {
     margin: 30px 5% 5px 5%;
     display: none;
-  }
-  #pizzaOrder,#orderTable {
-    margin: 30px 5% 5px 5%;
-  }
+}
+
+#message,
+#message2 {
+    color: rgb(245, 161, 87);
+}

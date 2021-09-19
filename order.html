@@ -74,10 +74,10 @@
             <div class="container text-center">
 
                 <h2>
-                    <span> ORDER AT METTO-PIZZA-INN </span>
+                    <span> ORDER AT METTO'S-PIZZA-INN </span>
                </h2>
 
-               <form id="orderForm" name="orderForm">
+               <form id="formForOrder" name="formForOrder">
 
                 <div class="row">
 
@@ -142,7 +142,7 @@
 
                   </div>
 
-                  <div class="col-md-12 text-center">
+                  <div class="col-md-12 text-center p-5">
 
                     <button class="btn btn-success" type="submit" id="orderButton">Add to cart</button>
 
@@ -154,7 +154,7 @@
 
               <!-- view order -->
 
-              <div class="row view-order">
+              <div class="viewYourOrder">
 
                 <div id="guide" class="alert alert-success alert-dismissible">
 
@@ -169,9 +169,11 @@
 
                 </div>
 
-                <div>
+                <br>
 
-                  <button class="btn btn-warning" id="checkOrder">View updated Cart</button>
+                <div class="p-5">
+
+                  <button class="btn btn-warning" id="orderCheck">View updated Cart</button>
 
                 </div>
 
@@ -179,7 +181,7 @@
 
                   <!-- order list table -->
 
-         <div id="orderTable">
+         <div id="tableForOrder">
 
         <table class="table table-dark">
 
@@ -187,12 +189,12 @@
 
             <th>Pizza Size</th>
             <th>Crust</th>
-            <th>Topings</th>
+            <th>Toppings</th>
             <th>Total</th>
 
           </tr>
 
-          <tbody id="customerOrder"></tbody>
+          <tbody id="order"></tbody>
 
           <tfoot class="text-right">
 
@@ -210,15 +212,15 @@
 
           <!-- ask for delivery form -->
 
-    <div id="ask">
+    <div id="location">
 
         <h2>Pizza Delivery</h2>
 
-        <form id="confirm" action="" class="">
+        <form id="data">
 
           <div class="form-group">
 
-            <label for locate>Do you need your Pizza be delivered to you now?</label>
+            <label>Do you need your Pizza be delivered to you now?</label>
 
             <select class="selectpicker" name="" id="askForLocation">
 
@@ -238,7 +240,7 @@
 
          <!-- alert  for shipping cost -->
 
-    <div id="confirmAlert" class="alert alert-success alert-dismissible">
+    <div id="data" class="alert alert-success alert-dismissible">
 
         <strong>Success!</strong> <span id="message"></span>
 
@@ -249,15 +251,15 @@
 
         <!-- customer details form-non delivery -->
 
-    <div id="locate">
+    <div id="locateUser">
 
-        <h2>Enter your details and  preffered location for delivery in the form below</h2>
+        <h2>Enter your details and  preferred location for delivery in the form below</h2>
 
         <form>
 
           <div class="form-group mb-2">
 
-            <label for="mce-MMERGE4">Name <span class="asterisk">*</span></label>
+            <label for="mce-MMERGE4">Name </label>
 
             <input type="text" class="form-control" id="name" value="" placeholder="Enter your Name here...">
 
@@ -265,7 +267,7 @@
 
           <div class="form-group mb-2">
 
-            <label for="mce-MMERGE4">Phone <span class="asterisk">*</span></label>
+            <label for="mce-MMERGE4">Phone </label>
 
             <input type="text" class="form-control" id="phone" value="" placeholder="Enter your phone number here...">
 
@@ -274,13 +276,13 @@
 
           <div class="form-group mb-2">
 
-            <label for="mce-MMERGE4">Location <span class="asterisk">*</span></label>
+            <label for="mce-MMERGE4">Location </label>
 
-            <input type="text" class="form-control" id="shippingLocation" value="" placeholder="Enter delivery location here">
+            <input type="text" class="form-control" id="deliveryLocation" value="" placeholder="Enter delivery location here">
 
           </div>
 
-          <button id="locationButton" class="btn btn-success" type="button">Submit</button>
+          <button id="deliveryButton" class="btn btn-success" type="button">Submit</button>
 
         </form>
 
@@ -288,9 +290,9 @@
 
         <!-- alert for shipping location button -->
 
-    <div id="locationAlert" class="alert alert-success alert-dismissible">
+    <div id="alert" class="alert alert-success alert-dismissible">
 
-        <strong>Success!</strong><span id="areaMessage"></span>
+        <strong>Success!</strong><span id="message2"></span>
 
         <button type="button" class="close" data-dismiss="alert">&times;</button>
 
@@ -299,7 +301,7 @@
 
        <!-- customer details form-non delivery -->
 
-    <div id="userInfo">
+    <div id="Info">
 
         <h2>Enter your details in the form below</h2>
 
@@ -307,7 +309,7 @@
 
           <div class="form-group mb-2">
 
-            <label for="mce-MMERGE4">Name <span class="asterisk">*</span></label>
+            <label for="mce-MMERGE4">Name </label>
 
             <input type="text" class="form-control" id="nameOne" value="" placeholder="Enter your Name here...">
 
@@ -315,7 +317,7 @@
 
           <div class="form-group mb-2">
 
-            <label for="mce-MMERGE4">Phone <span class="asterisk">*</span></label>
+            <label for="mce-MMERGE4">Phone </label>
 
             <input type="text" class="form-control" id="phone1" value="" placeholder="Enter your phone number here...">
 
@@ -331,7 +333,7 @@
 
     <!-- no-delivery checkout section -->
 
-    <div id="checkouAlertOne" class="alert alert-success alert-dismissible">
+    <div id="popupOne" class="alert alert-success alert-dismissible">
 
         <strong>Success! Order Summary...Kindly come to collect your order.</strong>
 
@@ -346,19 +348,19 @@
           <tr>
             <th scope="row">1</th>
             <td>Name:</td>
-            <td><span id="userName1"></span></td>
+            <td><span id="usser"></span></td>
           </tr>
 
           <tr>
             <th scope="row">2</th>
             <td>Phone Number:</td>
-            <td><span id="phoneOne"></span></td>
+            <td><span id="userPhoneOne"></span></td>
           </tr>
 
           <tr>
             <th scope="row">3</th>
             <td>Grand Total</td>
-            <td>Ksh <span id="aggregatePriceOne"></span></td>
+            <td>Ksh <span id="priceOne"></span></td>
           </tr>
 
         </table>
@@ -380,7 +382,7 @@
 
     <div id="checkOut">
 
-        <div id="checkouAlert" class="alert alert-success alert-dismissible">
+        <div id="checkoutAlert" class="alert alert-success alert-dismissible">
 
           <strong>Success! Order Summary...This order is on its way to your location.</strong>
 
@@ -395,37 +397,37 @@
             <tr>
               <th scope="row">1</th>
               <td>Name:</td>
-              <td><span id="userNameTwo"></span></td>
+              <td><span id="nameTwo"></span></td>
             </tr>
 
             <tr>
               <th scope="row">2</th>
               <td>Phone Number:</td>
-              <td><span id="phoneTwo"></span></td>
+              <td><span id="userPhoneTwo"></span></td>
             </tr>
 
             <tr>
               <th scope="row">3</th>
               <td>Aggregate Order Price</td>
-              <td>Ksh <span id="aggregatePrice"></span></td>
+              <td>Ksh <span id="price"></span></td>
             </tr>
 
             <tr>
               <th scope="row">4</th>
               <td>Shipping Location</td>
-              <td><span id="shippingArea"></span></td>
+              <td><span id="shippingLocation"></span></td>
             </tr>
 
             <tr>
               <th scope="row">5</th>
               <td>Shipping Cost</td>
-              <td>Ksh <span id="shippingCost"></span></td>
+              <td>Ksh <span id="deliveryCost"></span></td>
             </tr>
 
             <tr>
               <th scope="row">6</th>
               <td>Grand Total</td>
-              <td>Ksh <span id="totalAmount"></span></td>
+              <td>Ksh <span id="totalSum"></span></td>
             </tr>
 
           </table>
