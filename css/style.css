@@ -39,7 +39,7 @@ text-decoration: none;
     border-radius: 20px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 600px;
+    height: auto;
     color: whitesmoke;
 }
 .foot{
