@@ -27,9 +27,19 @@ $(document).ready(function(){
         
 
     })
-
-  
-
-
     
 });
+
+
+// business logic
+function Pizza(size, crust, topping) {
+    this.sizeValue = size;
+    this.crustCost = crust;
+    this.toppingCost = topping;
+  }
+  
+  Pizza.prototype.myOrder = function () {
+    result = this.sizeValue + this.crustCost + this.toppingCost;
+    return result;
+  
+  }
