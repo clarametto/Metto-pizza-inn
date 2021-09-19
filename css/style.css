@@ -109,3 +109,13 @@ span{
     color: wheat;
     font-weight: bolder;
 }
+
+/* order style */
+
+#ask,#locate,#checkOut, #userInfo, #checkoutUser1,#checkouAlertOne,#confirmAlert,#locationAlert {
+    margin: 30px 5% 5px 5%;
+    display: none;
+  }
+  #pizzaOrder,#orderTable {
+    margin: 30px 5% 5px 5%;
+  }
