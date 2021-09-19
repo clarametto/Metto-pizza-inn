@@ -142,25 +142,25 @@ $(document).ready(function () {
     
         //confirmation for delivery option
 
-        // $("form#confirm").submit(function(event) {
-        //   event.preventDefault();
-        //   let delivery = $("#askForLocation").val();
+        $("form#confirm").submit(function(event) {
+          event.preventDefault();
+          let delivery = $("#askForLocation").val();
     
-        //   if(delivery === "Yes") {
-        //     $("#message").text("Your shipping cost is Ksh " + shippingCost);
-        //     $("#confirmAlert").show();
-        //     $("#locate").show();
-        //     $("#userInfo").hide();
-        //     $(this).hide();
-        //     $("#ask").hide();
-        //   }
-        //   else if (delivery == "No") {
-        //     $("#userInfo").show();
-        //     $("#locate").hide();
-        //     $(this).hide();
-        //     $("#ask").hide();
-        //   }
-        // })
+          if(delivery === "Yes") {
+            $("#message").text("Your shipping cost is Ksh " + shippingCost);
+            $("#confirmAlert").show();
+            $("#locate").show();
+            $("#userInfo").hide();
+            $(this).hide();
+            $("#ask").hide();
+          }
+          else if (delivery == "No") {
+            $("#userInfo").show();
+            $("#locate").hide();
+            $(this).hide();
+            $("#ask").hide();
+          }
+        })
     
         //capture details from user with no delivery
 
