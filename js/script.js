@@ -191,22 +191,22 @@ $(document).ready(function () {
     
         //Receive inputs from customer with delivery
 
-        // $("#locationButton").click(function(event) {
-        //   event.preventDefault();
-        //   const shippingLocation = $("input#shippingLocation").val();
-        //   let userName = $("input#name").val();
-        //   let phone = $("input#phone").val();
+        $("#locationButton").click(function(event) {
+          event.preventDefault();
+          const shippingLocation = $("input#shippingLocation").val();
+          let userName = $("input#name").val();
+          let phone = $("input#phone").val();
     
-        //   if (shippingLocation.length === 0 || userName.length ===0 || phone.length ===0) {
-        //     alert ("Enter all fields before submiting!!!")
-        //   }
-        //   else {
-        //     $("#areaMessage").text("Your shipping location is " + shippingLocation +". This order will be delivered to your location after you checkout.");
-        //     $("#locationAlert").show();
-        //     $("#checkOut").show();
-        //     $("#locate").hide();
-        //     $(this).hide();
-        //   }
+          if (shippingLocation.length === 0 || userName.length ===0 || phone.length ===0) {
+            alert ("Enter all fields before submitting!!!")
+          }
+          else {
+            $("#areaMessage").text("Your shipping location is " + shippingLocation +". This order will be delivered to your location after you checkout.");
+            $("#locationAlert").show();
+            $("#checkOut").show();
+            $("#locate").hide();
+            $(this).hide();
+          }
 
           //Display order summary on checkout with delivery
 
