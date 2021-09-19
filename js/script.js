@@ -134,11 +134,11 @@ $(document).ready(function () {
     
         //print order summary to a table
 
-        // $("#orderTable").show();
-        // $("#ask").show();
-        // const total = cart.reduce((sum, item) => sum + (parseInt(item['total'])), 0);
-        // const shippingCost = 0.2*total;
-        // tot.innerHTML = "Aggregate Order Price Ksh " + total.toString();
+        $("#orderTable").show();
+        $("#ask").show();
+        const total = cart.reduce((sum, item) => sum + (parseInt(item['total'])), 0);
+        const shippingCost = 0.2*total;
+        tot.innerHTML = "Aggregate Order Price Ksh " + total.toString();
     
         //confirmation for delivery option
 
