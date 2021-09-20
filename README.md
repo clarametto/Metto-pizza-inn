@@ -4,8 +4,24 @@
 ![Portfolio](img/readme-5907901.jpeg)
 
 ## **Description**
- When entertaining, a Hawaiian pizza, a Regina pizza, or a Peri Peri Chicken pizza from Metto-Pizza-Inn is the obvious and perfect option to please crowds of all ages.
-                    
+Metto-Pizza-Inn is an anti-establishment establishment built on the renown of its creative pies and craft beverages, localized shop design, and the strength, unity and vibe of its living-wage-paid.
+
+
+
+  > **The table bellow provide a list of our menu..**
+
+| SIZE | CRUST |  TOPPINGS|  |
+| ---   |  ---     | ---  | --- |
+| **SMALL**  | CRISPY|MUSHROOM| 
+|   |   || 
+| **MEDIUM**  | STUFFED |SAUSAGE| 
+|   |   || 
+| **LARGE**  | GLUTTEN-FREE | GREEN-PEPPER| 
+|   |   | 
+| | Follow the link below to place an order || 
+|   | mettopizzain@gmail.com   || 
+|       |        |       |
+  
                   
 
 > **The table bellow provide a list of our our Branches and location ..**
