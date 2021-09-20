@@ -97,6 +97,14 @@ a {
     height: 100px;
 }
 
+.align{
+    justify-content: center;
+    text-align: center;
+}
+#gmap_canvas{
+    padding-left: 100px;
+}
+
 /* What we do on about us */
 
 .item {
@@ -181,6 +189,21 @@ span {
 #message,
 #message2 {
     color: rgb(245, 161, 87);
+}
+
+input, textarea{
+    background: transparent;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+
+select{
+    height: 50px;
+    border-radius: 10px;
 }
 
 
