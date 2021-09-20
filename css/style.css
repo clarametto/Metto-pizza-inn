@@ -188,6 +188,7 @@ span {
 .menuimage{
     border-radius: 20px;
     width: 300px;
+    height: 200px;
 
 }
 .menuimage:hover{
