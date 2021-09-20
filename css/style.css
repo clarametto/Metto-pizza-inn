@@ -187,6 +187,7 @@ span {
 /* menu page */
 .menuimage{
     border-radius: 20px;
+    width: 300px;
 
 }
 .menuimage:hover{
