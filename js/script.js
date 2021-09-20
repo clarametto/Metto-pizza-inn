@@ -95,7 +95,7 @@ $(document).ready(function () {
         order["total"] = (order["toppingCost"] + order["crustCost"] + order["sizeValue"]);
         cart.push(order);
         localStorage.setItem("cart", JSON.stringify(cart));
-        alert("Your selection have been successfully added to cart.")
+        alert("Your Order selection have been successfully added to Bucket.")
         $(".viewYourOrder").show();
         $("#guide").show();
         let form1 = document.getElementsByName("formForOrder")[0];
@@ -123,7 +123,7 @@ $(document).ready(function () {
         $("#location").show();
         const total = cart.reduce((sum, item) => sum + (parseInt(item['total'])), 0);
         const deliveryCost = 0.2 * total;
-        tot.innerHTML = "Aggregate Order Price Ksh " + total.toString();
+        tot.innerHTML = " Order Price Ksh " + total.toString();
 
         //Confirmation for delivery option
 
@@ -132,7 +132,7 @@ $(document).ready(function () {
             let delivery = $("#askForLocation").val();
 
             if (delivery === "Yes") {
-                $("#message").text("Your shipping cost is Ksh " + deliveryCost);
+                $("#message").text("Your Delivery cost is Ksh " + deliveryCost);
                 $("#data").show();
                 $("#locateUser").show();
                 $("#Info").hide();
@@ -183,7 +183,7 @@ $(document).ready(function () {
             if (deliveryLocation.length === 0 || userName.length === 0 || phone.length === 0) {
                 alert("Enter all fields before submitting!!!")
             } else {
-                $("#message2").text("Your shipping location is " + deliveryLocation + ". This order will be delivered to your location after you checkout.");
+                $("#message2").text("Your Delivery location is " + deliveryLocation + ". This order will be delivered to your location after you checkout.");
                 $("#alert").show();
                 $("#checkOut").show();
                 $("#locateUser").hide();
