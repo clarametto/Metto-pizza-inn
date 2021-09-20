@@ -1,7 +1,7 @@
 ## **METTO'S-PIZZA-INN**
 
 
-![Portfolio](img/back.png)
+![Portfolio](img/readme-5907901.jpeg)
 
 ## **Description**
  When entertaining, a Hawaiian pizza, a Regina pizza, or a Peri Peri Chicken pizza from Metto-Pizza-Inn is the obvious and perfect option to please crowds of all ages.
