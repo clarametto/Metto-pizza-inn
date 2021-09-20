@@ -19,7 +19,7 @@ Metto-Pizza-Inn is an anti-establishment establishment built on the renown of it
 | **LARGE**  | GLUTTEN-FREE | GREEN-PEPPER| 
 |   |   | 
 | | Follow the link below to place an order || 
-|   | mettopizzain@gmail.com   || 
+|   | https://clarametto.github.io/Metto-pizza-inn/   || 
 |       |        |       |
   
                   
