@@ -94,6 +94,7 @@ a {
 
 #design {
     width: 100px;
+    height: 100px;
 }
 
 /* What we do on about us */
@@ -103,12 +104,20 @@ a {
     cursor: pointer;
 
 }
+.oven{
+    color: white;
+}
 
 #design-p {
     /* color: rgb(245, 161, 87); */
     color: whitesmoke;
     font-size: 17px;
     display: none;
+}
+.lineX{
+    width: 100px;
+    border: 1px solid wheat;
+
 }
 .line{
     width: 500px;
