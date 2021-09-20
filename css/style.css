@@ -182,3 +182,15 @@ span {
 #message2 {
     color: rgb(245, 161, 87);
 }
+
+
+/* menu page */
+.menuimage{
+    border-radius: 20px;
+
+}
+.menuimage:hover{
+    border:2px solid red;
+    /* border-radius: 20px; */
+
+}
